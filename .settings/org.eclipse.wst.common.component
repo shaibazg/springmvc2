@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="springmvc2">
+        <wb-resource deploy-path="/WEB-INF/web.xml" source-path="/WebContent/WEB-INF/web.xml"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="currency.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/springmvc2/WebContent/WEB-INF/lib/currency.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="springmvc2"/>
+        <property name="java-output-path" value="/springmvc2/target/classes"/>
+    </wb-module>
+</project-modules>
